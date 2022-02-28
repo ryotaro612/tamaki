@@ -1,1 +1,1 @@
-add_library(a a.cc)
+add_library(binary_index_tree binary_index_tree.cc)
