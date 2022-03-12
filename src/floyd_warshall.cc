@@ -2,7 +2,8 @@
 using namespace std;
 /**
  * nはノードの数
- * node1_v, node2_vは各辺の片方の頂点のベクトル(0オリジン)
+ * node1_v, node2_vの各要素は各辺の片方の頂点をしめす。
+ * 頂点の番号は0からはじまる。
  */
 vector<vector<long long>> floyd_warshall(int n, vector<int> &node1_v,
                                          vector<int> &node2_v,
