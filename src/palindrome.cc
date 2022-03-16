@@ -2,6 +2,9 @@
 
 using namespace std;
 
+/**
+ * O(n)
+ */
 bool is_palindrome(string &s) {
   int n = static_cast<int>(s.size());
   // a b c -> 0
